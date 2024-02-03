@@ -43,6 +43,51 @@ body {
     align-items: center;
 }
 
+.hands {
+   
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-around;
+  
+    
+}
+
+.icon {
+    display: flex;
+background-color: white;
+    margin: 30px;
+    border-radius: 50%;
+    height:120px;
+    width: 120px;
+    padding:30px;
+    align-items: center;
+   
+}
+
+
+#paper {
+    border:#2a45c2 10px solid;
+}
+
+#scissors {
+    border:#fcba03 10px solid;
+}
+
+#rock {
+    border:#fc0303 10px solid;
+}
+
+#lizard {
+    border:#0390fc 10px solid;
+}
+
+#spock {
+    border:#03dffc 10px solid;
+}
+
 .score h1 {
     color:#565468;
     font-size: 56px;

@@ -25,3 +25,15 @@ Score
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+ .hands {
+    background-image: url("assets/images/pentagon.svg");
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+} 
+
+
+src="assets/images/bg-pentagon.svg"
