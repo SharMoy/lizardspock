@@ -8,7 +8,7 @@ body {
     font-family: "Barlow condensed" sans-serif;
 }
 
-.wrapper {
+.container{
     width:100vw;
     height:100vh;
     background: radial-gradient(134.34% 134.34% at 50% 0%,
@@ -67,6 +67,17 @@ background-color: white;
    
 }
 
+.hands.icon{
+    cursor: pointer;
+    transition: all0.25s;
+    
+}
+
+.hands.icon:hover{
+    transform: translate3d();
+}
+
+
 
 #paper {
     border:#2a45c2 10px solid;
@@ -104,3 +115,8 @@ background-color: white;
 .title {
     margin-left: 30px;
 }
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  

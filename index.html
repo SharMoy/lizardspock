@@ -3,68 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
-<body>
+<body class="preload">
 
   <!-- covers whole page-->
-<div class="wrapper">
-  <div class="score-board">
-    <div class="title">
-      <img src="assets/images/logo-bonus.svg" alt="title">
-    </div>
+<div class="container">
+  <header class="header">
+      <img src="assets/images/logo-bonus.svg" alt="logo-title" class="logo">
+ 
     <div class="score">
-      <p>SCORE</p>
-      <h1>0</h1>
+      <div class="score_title">score</div>
+      <div class="score_number">0</div>
     </div>
-  </div>
+</header>
+  <section class="game">
 
-  <div class="hands">
-    <div class="icon" id="paper">
-       <img src="assets/images/icon-paper.svg" alt="paper">
-
-    </div>
+    <button class="choice-btn" datachoice="paper">
+      <div class="choice paper">
+         <img src="assets/images/icon-paper.svg" alt="paper"/>
+      </div>
+   </button>
   
-    <div class="icon" id="scissors">
-      <img src="assets/images/icon-scissors.svg" alt="scissors">
 
+   <button class="choice-btn" datachoice="scissors">
+    <div class="choice scissors">
+       <img src="assets/images/icon-scissors.svg" alt="scissors"/>
     </div>
-    <div class="icon" id="rock">
-      <img src="assets/images/icon-rock.svg" alt="rock">
+ </button>
 
-      </div>
 
-    <div class="icon" id="lizard">
-      <img src="assets/images/icon-lizard.svg" alt="lizard">
-
-      </div>
-    <div class="icon" id="spock">
-      <img src="assets/images/icon-spock.svg" alt="spock">
-
-      
-      </div>
-      
+ <button class="choice-btn" datachoice="rock">
+  <div class="choice rock">
+     <img src="assets/images/icon-rock.svg" alt="rock"/>
   </div>
+</button>
 
 
+<button class="choice-btn" datachoice="lizard">
+  <div class="choice lizard">
+     <img src="assets/images/icon-lizard.svg" alt="lizard"/>
+  </div>
+</button>
 
+
+<button class="choice-btn" datachoice="spock">
+  <div class="choice spock">
+     <img src="assets/images/icon-spock.svg" alt="spock"/>
+  </div>
+</button>   
+
+</section>
 </div>
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Sharon Simpson</a>.
   </div>
+<sript src="assets/js/script.js"></sript>
 </body>
 </html>
