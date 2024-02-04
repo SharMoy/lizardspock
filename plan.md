@@ -37,3 +37,20 @@ Score
 
 
 src="assets/images/bg-pentagon.svg"
+
+.choice-btn[data-choice="paper"] {
+    grid-area: paper;
+  }
+  .choice-btn[data-choice="scissors"] {
+    grid-area: scissors;
+  }
+  .choice-btn[data-choice="rock"] {
+    grid-area: rock;
+  }
+  .choice-btn[data-choice="lizard"] {
+    grid-area: lizard;
+  }
+  .choice-btn[data-choice="spock"] {
+    grid-area: spock;
+  }
+  
